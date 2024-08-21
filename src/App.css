@@ -1,0 +1,23 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.movie-list-item {
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    color: rgb(84, 81, 81);
+    box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.668);
+}
